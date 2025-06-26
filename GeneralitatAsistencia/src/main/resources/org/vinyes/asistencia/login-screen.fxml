@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.vinyes.asistencia.Controllers.LoginScreenController"
+            prefHeight="200.0" prefWidth="300.0">
+
+    <Label layoutX="50.0" layoutY="40.0" text="Usuari"/>
+    <TextField fx:id="usernameField" layoutX="120.0" layoutY="35.0" prefWidth="150.0"/>
+    <Label layoutX="50.0" layoutY="80.0" text="Contrasenya"/>
+    <PasswordField fx:id="passwordField" layoutX="120.0" layoutY="75.0" prefWidth="150.0"/>
+    <Button text="Login" layoutX="120.0" layoutY="120.0" prefWidth="100.0" onAction="#onLoginClick"/>
+</AnchorPane>
